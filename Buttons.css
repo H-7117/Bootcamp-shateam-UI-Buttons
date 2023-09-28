@@ -1,6 +1,8 @@
 .btn{
-    padding:  5px 7px;
+    /* padding:  5px 7px; */
     border: none;
+    font-size: 1rem;
+    padding: 5px 20px;
 }
 .btn-save{
     color: rgb(187, 187, 254);
@@ -17,4 +19,38 @@
 .btn-edit{
     background-color: #ffd979;
     
+}
+
+.is-medium{
+    font-size: 1.5rem;
+    padding: 5px 20px;
+}
+.is-larger{
+    font-size: 1.75rem;
+    padding: 5px 20px;
+}
+
+.is-Xlarger{
+    font-size: 2.5rem;
+    padding: 5px 20px;
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+.rounded-5{
+    border-radius: 5px;
+}
+
+.rounded-10{
+    border-radius: 10px;
+}
+
+.rounded-15{
+    border-radius: 15px;
+}
+
+.rounded-full{
+border-radius: 50%;
 }
